@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333842;
+  color: #ffffff;
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+.judul-01 {
+  margin-top: 20px;
+}
+
+.judul {
+  margin-top: 10px;
+}
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.line {
+  display: flex;
+}
+
+.number {
+  opacity: 0.3;
+  margin-right: 20px;
+}
+
+.empty-line .number-5 {
+  opacity: 0.2;
+}
+
+.empty-line .number-6 {
+  opacity: 0.1;
+}
+
+.empty-line .number-7 {
+  opacity: 0.05;
+}
+
+.text {
+  letter-spacing: 1px;
+}
+
+.text mark {
+  background: transparent;
+  color: magenta;
+  letter-spacing: 1px;
+}
+
+.social li {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social a {
+  color: #ffffff;
+  opacity: 0.1;
+}
+
+.social a:hover {
+  opacity: 1;
+  transition: 1.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .social li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
